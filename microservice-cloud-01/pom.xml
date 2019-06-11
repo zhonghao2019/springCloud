@@ -7,6 +7,10 @@
     <groupId>com.zhonghao.springcloud</groupId>
     <artifactId>microservice-cloud-01</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>../microservice-cloud-02-api</module>
+        <module>../microservice-cloud-03-provider-product-8001</module>
+    </modules>
     <packaging>pom</packaging>
 
     <!-- spring boot 采用 2.0.7 版本 -->
