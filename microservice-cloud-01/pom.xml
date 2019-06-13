@@ -10,6 +10,9 @@
     <modules>
         <module>../microservice-cloud-02-api</module>
         <module>../microservice-cloud-03-provider-product-8001</module>
+        <module>../microservice-cloud-04-consumer-product-80</module>
+        <module>../microservice-cloud-05-eureka-6001</module>
+        <module>../microservice-cloud-05-eureka-6002</module>
     </modules>
     <packaging>pom</packaging>
 
