@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
+// 负载均衡
 @FeignClient(value = "microservice-product") //指定调用的微服务名称
 public interface ProductClientService {
 
