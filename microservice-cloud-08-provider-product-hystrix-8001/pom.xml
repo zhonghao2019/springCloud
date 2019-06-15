@@ -19,6 +19,12 @@
             <version>${project.version}</version>
         </dependency>
 
+        <!--监控依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!-- 导入hystrix依赖 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
